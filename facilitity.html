@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .header {
+            min-height: 100vh;
+            width: 100%;
+            /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/eduford_img/certificate.jpg); */
+            background-color: #e3e0cf;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+
+        }
+
+        nav {
+            display: flex;
+            padding: 2% 6%;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav img {
+            width: 90px;
+            border-radius: 50%;
+
+        }
+
+        .nav-links {
+            flex: 1;
+            text-align: right;
+
+        }
+
+        .nav-links ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+        }
+
+        .nav-links ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 13px;
+
+        }
+
+        .nav-links ul li::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #f44336;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+
+        .nav-links ul li:hover::after {
+            width: 100%;
+
+
+        }
+
+        .facilities {
+
+            width: 100%;
+
+            margin: auto;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .facilities-col {
+
+            flex-basis: 31%;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            text-align: left;
+
+        }
+
+        .facilities-col img {
+            height: 70%;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .facilities-col p {
+            padding: 0;
+        }
+
+        .facilities-col h3 {
+            margin-top: 16px;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .row {
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer {
+            width: 100%;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer h4 {
+            margin-bottom: 25px;
+            margin-top: 20px;
+            font-weight: 600;
+
+        }
+
+        .icon .fa {
+            color: #f44336;
+            margin: 0 13px;
+            cursor: pointer;
+            padding: 18px 0;
+        }
+
+        .fa-heart-o {
+            color: #f44336;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="/eduford_img/R.bmp" alt=""></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/home.html">Home</a></li>
+                    <li><a href="/courses.html">Courses</a></li>
+                    <li><a href="/facilitity.html">Facilitity</a></li>
+                    <li><a href="/activities.html">Activities</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.htmlZ">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusantium.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="/eduford_img/library.png" alt="">
+                    <h3>Library</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam dolorum fugit suscipit minima nobis
+                        facilis voluptatem aliquid sunt id quam.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="/eduford_img/basketball.png" alt="">
+                    <h3>Play Ground</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam dolorum fugit suscipit minima nobis
+                        facilis voluptatem aliquid sunt id quam.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="/eduford_img/cafeteria.png" alt="">
+                    <h3>Cafeteria</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam dolorum fugit suscipit minima nobis
+                        facilis voluptatem aliquid sunt id quam.</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="/eduford_img/banner-1-1024x576-1.png" alt="">
+                    <h3>Auditorium</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam dolorum fugit suscipit minima nobis
+                        facilis voluptatem aliquid sunt id quam.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="/eduford_img/QXD6fkW0-Gyms-1200x800.jpg" alt="">
+                    <h3>GYM </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam dolorum fugit suscipit minima nobis
+                        facilis voluptatem aliquid sunt id quam.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="/eduford_img/5+storey+building+design.jpg" alt="">
+                    <h3>Girls Hostel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam dolorum fugit suscipit minima nobis
+                        facilis voluptatem aliquid sunt id quam.</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="/eduford_img/2020-1_CR.png" alt="">
+                    <h3>Research Lab</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam dolorum fugit suscipit minima nobis
+                        facilis voluptatem aliquid sunt id quam.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="/eduford_img/computer-lab-furniture.jpg" alt="">
+                    <h3>Computer Lab</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam dolorum fugit suscipit minima nobis
+                        facilis voluptatem aliquid sunt id quam.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="/eduford_img/ooty4.jpg" alt="">
+                    <h3>Botanical Garden</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam dolorum fugit suscipit minima nobis
+                        facilis voluptatem aliquid sunt id quam.</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="footer">
+
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+
+
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Pratik & Prajwal </p>
+        </section>
+
+    </section>
+
+</body>
+
+</html>

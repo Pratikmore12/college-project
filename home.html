@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .header {
+            min-height: 100vh;
+            width: 100%;
+            /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/eduford_img/cafeteria.png); */
+            background-color: #9fa8a3;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+
+        }
+
+        nav {
+            display: flex;
+            padding: 2% 6%;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav img {
+            width: 90px;
+            border-radius: 50%;
+
+        }
+
+        .nav-links {
+            flex: 1;
+            text-align: right;
+
+        }
+
+        .nav-links ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+        }
+
+        .nav-links ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 13px;
+
+        }
+
+        .nav-links ul li::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #f44336;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+
+        .nav-links ul li:hover::after {
+            width: 100%;
+        }
+
+        .img {
+            margin: 0;
+            display: flex;
+            margin: 1% 40% 50% 43%;
+            margin-bottom: 5px;
+            border-radius: 50%;
+            border: 3px solid gray;
+            width: 150px;
+            /* transform: translateY(10px); */
+
+
+        }
+
+        .img:hover {
+            box-shadow: 0 0 10px black;
+            /* transform: translateY(0px); */
+        }
+
+        .para {
+            text-align: center;
+            padding: 10px 20px;
+
+        }
+
+        .row {
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-between;
+            /* text-align: center; */
+        }
+
+        .course-col {
+            flex-basis: 31%;
+            /* border: 2px solid orange; */
+            background: orange;
+            transition: 0.5s;
+            margin-bottom: 20px;
+
+        }
+
+        h4 {
+            text-align: center;
+            font-weight: 600;
+            padding-bottom: 5px;
+            /* margin: 10px 0;  */
+        }
+
+        .para1 {
+            text-align: center;
+            padding: 7px;
+            cursor: pointer;
+        }
+
+        .course-col a {
+            text-align: center;
+            text-decoration: none;
+            color: black;
+        }
+
+        .course-col:hover {
+            background-color: green;
+        }
+
+        video {
+
+            /* height: 500px; */
+            width: 500px;
+            margin-left: 30%;
+            margin-top: 20px;
+        }
+
+        h3 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .footer {
+            width: 100%;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer h4 {
+            margin-bottom: 25px;
+            margin-top: 20px;
+            font-weight: 600;
+
+        }
+
+        .icon .fa {
+            color: #f44336;
+            margin: 0 13px;
+            cursor: pointer;
+            padding: 18px 0;
+        }
+
+        .fa-heart-o {
+            color: #f44336;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="/eduford_img/R.bmp" alt=""></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/home.html">Home</a></li>
+                    <li><a href="/courses.html">Courses</a></li>
+                    <li><a href="/facilitity.html">Facilitity</a></li>
+                    <li><a href="/activities.html">Activities</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.htmls">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <img class="img" src="/eduford_img/Principal-Photo2-1-768x1006.jpg" alt="">
+
+        <p class="para">Welcome friends,<br>
+
+            It was in 1962 that this college started its journey with a vision to impart its students with
+            career-oriented, quality education at par with global standards. This was done by developing various
+            skills and inculcating moral values among the youth to make them responsible citizens of India.
+
+            The 21st century is dominated by the youth from India and they have conquered almost every field,
+            overcoming challenges and taking every opportunity. Our college has joined the ranks of colleges
+            entrusted with this Herculean task of preparing the youth for this world. We have done that by
+            pacing ahead towards a future in academics, research and also extension activities. What the
+            generation of today expects is not merely a download of information but rather a curriculum of
+            confidence building, courage, support and a value-based approach to become vibrant citizens of
+            modern society.
+
+            With the motto of ‘Siddhiranekantat’, we are striving to contribute to the nation-building ideals by
+            empowering youth through education.All of us, the fraternity of TC Pariwar, are committed to give
+            these bright students our best in the field of knowledge, skills and service.
+
+            I can see that the college is stretching its horizon of success daily by offering students modern
+            technological support to nurture today’s youth. The students passing out every year have proved that
+            our goal is not just a dream or a vision, but rather it is the rising sun of hope of tomorrow.
+            <br>
+            <b> Dr. Chandrashekhar Murumkar</b><br>
+            <b> Principal</b>
+        </p>
+        <hr>
+        <div>
+            <h3>Streets of T.C. College</h3>
+            <video controls src="/eduford_img/Streets_of_T.C._college_,baramati(720p).mp4"></video>
+        </div>
+
+        <div class="row">
+            <div class="course-col">
+                <p class="para1"> <a href="/examf.html">Click Here For</a></p>
+                <h4>Online Exam Form </h4>
+            </div>
+
+            <div class="course-col">
+                <p class="para1"> <a href="/admissionf.html">Click Here For</a></p>
+                <h4>Online Admission</h4>
+            </div>
+
+            <div class="course-col">
+                <p class="para1"> <a href="/onlinepay.html">Click Here For</a></p>
+                <h4>Online Payment</h4>
+            </div>
+        </div>
+        <section class="footer">
+
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+
+
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Pratik & Prajwal </p>
+        </section>
+
+    </section>
+
+
+</body>
+
+</html>
